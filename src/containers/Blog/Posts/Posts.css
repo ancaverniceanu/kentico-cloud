@@ -1,0 +1,27 @@
+.Posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    margin: 50px 0 0;
+    justify-content: center;
+  }
+  
+  .pagination > li {
+    margin: 0 10px;
+    padding: 10px 15px;
+    color: #00b0d8;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  
+  .pagination > li.active {
+      border-color:#00b0d8;
+  }
